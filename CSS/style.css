@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner-site {
+  background-image: url("../img/banner-bg.png");
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-site {
+  color: #ce1717;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-shadow: 1px 2px 3px #000000;
+
+}
+
+.subtitulo-site {
+  color: #ce1717;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.ancora-conheca-sobre-mim {
+  background-color: white;
+  border: 1px solid #861111;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #861111;
+  font-weight: bold;
+}
+
+.ancora-conheca-sobre-mim:hover {
+
+  background-color: white;
+  border: 1px solid #0010a3;
+  color: #0010a3;
+  transition: color 1s ease 0s;
+  
+
+
+}
+.section-sobre-mim {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  width: 85%;
+}
+
+.div-lado-esquerdo {
+  margin-right: 50px;
+}
+
+.paragrafo-sobre-mim {
+  margin-bottom: 30px;
+}
+
+.titulo-sobre-mim {
+  color: #861111;
+  padding: 0 50px;
+  margin-top: 30px;
+  margin-left: 70px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+letter-spacing: 0.8px;
+word-spacing: 0px;
+color: #861111;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: small-caps;
+text-transform: none;
+text-shadow: 1px 2px 3px #8d8d8d;
+
+}
+
+.titulo-minhas-habilidades {
+  color: #ce0909;
+  font-size: 18px;
+  margin-bottom: 10px;
+  
+
+}
+
+.ancora-conheca-meu-site {
+  background-color: #861111;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.ancora-conheca-meu-site:hover {
+  background-color: #0010a3;
+  transition: background-color 1s ease 0s;
+}
+
+.section-redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.card-redes-sociais {
+  background-color: #861111;
+  width: 150px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.card-redes-sociais:hover{
+
+  background-color: #0010a3;
+  transition: background-color 1s ease 0s;
+}
+
+.nome-rede-social {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nome-usuario-rede-social {
+  font-size: 15px;
+}
+
+.destaque-nome {
+  color: #ce0909;
+  font-weight: bold;
+}
+
+.destaque-nome1 {
+color: #ffffff;
+font-weight: bold;
+
+}
+
+.icone-rede-social {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  
+}
+
+
+.div-teste {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
